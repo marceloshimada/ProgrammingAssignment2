@@ -1,7 +1,9 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## This function returns an entity that represent a matrix with 4 related functions: set, get, setInverse and getInverse. Its inverse matrix can be stored in cache
+## This function returns an entity that represents a matrix
+## with 4 related functions: set, get, setInverse and getInverse. 
+## Its inverse matrix can be stored in cache
 
 makeCacheMatrix <- function(x = matrix()) {
   #internal value
@@ -20,7 +22,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function returns the inverse of the matrix. If the inverse value was stored before, it returns the cached value. Otherwise, calculates the inverse, stores the value and returns it.
+## This function returns the inverse of the matrix. 
+## If the inverse value was stored before, it returns the cached value. 
+## Otherwise, calculates the inverse, stores the value and returns it.
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
